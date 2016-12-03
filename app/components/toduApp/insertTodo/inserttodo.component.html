@@ -1,0 +1,10 @@
+<section class="insertodo-main">
+ 
+    <input type="text"
+        [(ngModel)]="todoValue.name"
+        
+        (keyup.enter)="addTodoItem($event)" 
+        placeholder="insert todo items"/>
+
+        <button type="button" (click)="addTodoItem($event)">Add</button>
+</section>

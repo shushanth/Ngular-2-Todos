@@ -1,0 +1,10 @@
+:host {
+  border: 1px solid;
+  flex-direction: inherit; }
+
+.insertodo-main {
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row; }
+
+/*# sourceMappingURL=inserttodo.component.css.map */

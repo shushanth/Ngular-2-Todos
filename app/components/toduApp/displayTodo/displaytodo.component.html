@@ -1,0 +1,8 @@
+<section>
+    <p>{{todoName}}</p>
+    
+    <label for="">
+
+        <input type="checkbox" [(ngModel)]="todoCompleted" (change) = "todoToggle($event)"/>
+    </label>
+</section>

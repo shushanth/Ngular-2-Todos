@@ -1,0 +1,21 @@
+<section class="todu-main">
+
+    <section class="flex-column">
+        <insert-todo-component 
+        [todoValue]="todoValue" 
+        (insertTodo)="addTodoItem($event)">
+
+        </insert-todo-component>
+    </section>
+
+    <section class="flex-column">
+        <display-todo-component *ngFor="let todo of todoItems; let i = index;"  
+            [todoName] = "todo.name"
+            [todoCompleted] = "todo.completed"
+            [todoIndex] = "i"
+            (todoCompletedToggle) = "updateTodoItemCompleted($event)" >
+        </display-todo-component>
+            
+    </section>
+
+</section>

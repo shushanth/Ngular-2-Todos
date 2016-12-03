@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+
+:host{
+
+    border: 1px solid;
+    flex-direction: inherit;
+}
+ .insertodo-main{
+     @include flex-direction-row;
+     
+ }

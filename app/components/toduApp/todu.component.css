@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  width: 100%; }
+
+.todu-main {
+  width: inherit;
+  margin: 5% 10%; }
+  .todu-main .flex-column {
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column; }
+
+/*# sourceMappingURL=todu.component.css.map */

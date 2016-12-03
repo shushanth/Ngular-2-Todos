@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAK;EAED,MAAM,EAAE,SAAS;EACjB,cAAc,EAAE,OAAO;;AAE1B,eAAe;ECEZ,cAAc,EAAC,GAAG;EAClB,kBAAkB,EAAE,GAAG;EACvB,sBAAsB,EAAC,GAAG",
+"sources": ["../../../styles/inserttodo.component.scss","../../../styles/_mixins.scss"],
+"names": [],
+"file": "inserttodo.component.css"
+}

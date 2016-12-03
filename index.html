@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular 2 Todo App</title>
+  </head>
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link rel="stylesheet" href="app/styles/main.css">
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+       System.import('system.config.js').then(()=>System.import('main'))
+             .catch(console.error.bind(console));
+    </script>
+  <body>
+      <todu-app>loading ... </todu-app>
+  </body>
+</html>
