@@ -6,15 +6,13 @@
 // targets the parent (ngular-2 method)
 :host{
    
-    width: 100%;
-    @include flex-display();
-    @include flex-direction-row();
+   
 }
-h2{
-    color: #545050;
+.header-title{
     font-size: 35px;
-    flex-flow:1;
-    margin: 0 auto;
-    margin-top:2%;
+    color:#36438a;
+    margin-top:20px;
+    font-family: $Bungee-font-family;
+    //color:#55316f;
 
 }

@@ -1,12 +1,3 @@
-* {
-  padding: 0;
-  margin: 0; }
-
-body {
-  background: #cdf1c3;
-  box-sizing: border-box;
-  overflow: hidden; }
-
 ._b-column {
   display: flex;
   display: -ms-flex;
@@ -20,4 +11,4 @@ body {
   ._b-row ._b-flex-center {
     margin: auto; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=base.css.map */

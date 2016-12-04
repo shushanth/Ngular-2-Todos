@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixins";
+
+// base css
+
+._b-column {
+   @include flex-display;
+   flex-direction:column;
+}
+
+//default flex-direction=> row
+._b-row{
+    @include flex-display;
+
+    ._b-flex-center{
+        margin:auto;
+    }
+}
+
+

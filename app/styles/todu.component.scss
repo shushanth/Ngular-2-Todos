@@ -1,20 +1,10 @@
 @import "variables";
 @import "mixins";
 
+//angular 2 method (targets host coomponent)
 :host{
-     @include flex-display;
-     @include flex-direction-row;
-     width: 100%;
+  
      
 }
-.todu-main{
-        width: inherit;
-        // border: 1px solid #545050;
-        margin:5% 10%;
-        
-    .flex-column{
-        @include flex-display;
-        @include flex-direction-column;
-    }
-}
+
 

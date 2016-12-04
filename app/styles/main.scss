@@ -2,16 +2,18 @@
 @import "mixins";
 
 
+
 *{
     padding: 0;
     margin:0;
 }
 
 body{
-    background: #cecece;
+    background: #cdf1c3;
     box-sizing: border-box;
     overflow: hidden;
 
 
 }
 
+@import "base.scss";

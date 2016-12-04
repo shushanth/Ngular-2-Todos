@@ -2,11 +2,49 @@
 @import "mixins";
 
 :host{
-
-    border: 1px solid;
-    flex-direction: inherit;
+    width: 100%;
 }
- .insertodo-main{
-     @include flex-direction-row;
-     
- }
+
+.insert-todo-main{
+    margin: 5% 25%;
+
+    .insert-input{
+            width: 100%;
+            flex: 5;
+            background: #fff;
+            display: flex;
+
+         input{
+            width: 100%;
+            font-size: 24px;
+            outline: none;
+            border: none; 
+            padding: 2% 5%;
+            font-family: $openSansCondensed;
+            font-weight:100;
+            flex:1;
+       
+         }   
+    }
+
+    .insert-submit{
+            width: 100%;
+            flex: 1;
+            margin: 0px auto;
+            display: flex;
+
+       button{
+            width: 100%;
+            font-size: 20px;
+            color: #fff;
+            background: #36438a;
+            outline: none;
+            border: none;
+            font-family: "Open Sans Condensed", sans-serif;
+            font-weight: 100;
+            cursor: pointer;
+       }     
+    }
+
+    
+}
