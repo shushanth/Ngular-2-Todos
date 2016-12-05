@@ -11,4 +11,19 @@
   ._b-row ._b-flex-center {
     margin: auto; }
 
+._b-row-wrap {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-wrap: wrap; }
+
+._b-custom-checkbox {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none; }
+
+._b-text-strike {
+  text-decoration: line-through; }
+
 /*# sourceMappingURL=base.css.map */

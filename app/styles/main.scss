@@ -9,11 +9,16 @@
 }
 
 body{
-    background: #cdf1c3;
+    //background: #cdf1c3;
+    background: rgba(205, 241, 195, 0.65);
     box-sizing: border-box;
     overflow: hidden;
 
+    section ,article ,div, aside , p ,h1 ,h2, h3, h4, h5 ,h6 {
+        position: relative
+    }
 
 }
+
 
 @import "base.scss";

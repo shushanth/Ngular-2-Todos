@@ -16,5 +16,20 @@
         margin:auto;
     }
 }
+._b-row-wrap{
+    @include flex-display;
+    flex-wrap: wrap;
+}
+
+._b-custom-checkbox{
+    cursor: pointer;
+    @include appearance-none;
+    
+}
+
+._b-text-strike{
+    text-decoration: line-through;
+}
+
 
 

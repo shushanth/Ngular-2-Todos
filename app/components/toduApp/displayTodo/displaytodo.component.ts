@@ -3,7 +3,8 @@ import { Component, OnInit , Input , Output , EventEmitter } from '@angular/core
 @Component({
     moduleId: module.id,
     selector: 'display-todo-component',
-    templateUrl: 'displaytodo.component.html'
+    templateUrl: 'displaytodo.component.html',
+    styleUrls:['displayTodo.component.css']
 })
 export class DisplayTodoComponent implements OnInit {
 

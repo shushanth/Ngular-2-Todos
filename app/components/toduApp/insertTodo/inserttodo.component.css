@@ -2,7 +2,7 @@
   width: 100%; }
 
 .insert-todo-main {
-  margin: 5% 25%; }
+  margin: 5% 25% 3% 25%; }
   .insert-todo-main .insert-input {
     width: 100%;
     flex: 5;
@@ -16,7 +16,9 @@
       padding: 2% 5%;
       font-family: "Open Sans Condensed", sans-serif;
       font-weight: 100;
-      flex: 1; }
+      flex: 1;
+      color: #36438a;
+      text-transform: capitalize; }
   .insert-todo-main .insert-submit {
     width: 100%;
     flex: 1;

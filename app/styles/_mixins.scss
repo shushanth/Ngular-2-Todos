@@ -18,3 +18,10 @@
     -ms-flex-direction: column;
     -webkit-flex-direction:column; 
 }
+
+@mixin appearance-none{
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    appearance:none; 
+    
+}

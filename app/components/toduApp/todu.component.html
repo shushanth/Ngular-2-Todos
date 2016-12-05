@@ -1,21 +1,24 @@
+<!--insert component section-->
 <section class="_b-row">
-
-
         <insert-todo-component 
         [todoValue]="todoValue" 
         (insertTodo)="addTodoItem($event)">
 
         </insert-todo-component>
-    
+</section>
+<!--insert component section-->
 
-    
-        <display-todo-component *ngFor="let todo of todoItems; let i = index;"  
+<!--display component section-->
+
+<section class="_b-row-wrap">
+
+   <display-todo-component *ngFor="let todo of todoItems; let i = index;"  
             [todoName] = "todo.name"
             [todoCompleted] = "todo.completed"
             [todoIndex] = "i"
             (todoCompletedToggle) = "updateTodoItemCompleted($event)" >
-        </display-todo-component>
-            
-    
+   </display-todo-component>
 
 </section>
+
+<!--display component section-->

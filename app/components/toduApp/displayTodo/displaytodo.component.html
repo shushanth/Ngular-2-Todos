@@ -1,8 +1,10 @@
-<section>
-    <p>{{todoName}}</p>
+<section class="_b-row display-todo-main">
     
-    <label for="">
+    <section class="todo-display-info">
+        <p [ngStyle]="{'_b-text-strike': todoCompleted}">{{todoName}}</p>
+    </section>
 
-        <input type="checkbox" [(ngModel)]="todoCompleted" (change) = "todoToggle($event)"/>
-    </label>
+    <section class="todo-display-complete">
+        <input type="checkbox" class="_b-custom-checkbox"   [(ngModel)]="todoCompleted" (change) = "todoToggle($event)"/>
+    </section>
 </section>

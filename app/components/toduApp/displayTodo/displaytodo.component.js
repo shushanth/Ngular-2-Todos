@@ -38,7 +38,8 @@ var DisplayTodoComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'display-todo-component',
-            templateUrl: 'displaytodo.component.html'
+            templateUrl: 'displaytodo.component.html',
+            styleUrls: ['displayTodo.component.css']
         }), 
         __metadata('design:paramtypes', [])
     ], DisplayTodoComponent);

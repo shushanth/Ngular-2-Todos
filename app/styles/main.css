@@ -3,9 +3,11 @@
   margin: 0; }
 
 body {
-  background: #cdf1c3;
+  background: rgba(205, 241, 195, 0.65);
   box-sizing: border-box;
   overflow: hidden; }
+  body section, body article, body div, body aside, body p, body h1, body h2, body h3, body h4, body h5, body h6 {
+    position: relative; }
 
 ._b-column {
   display: flex;
@@ -19,5 +21,20 @@ body {
   display: -webkit-flex; }
   ._b-row ._b-flex-center {
     margin: auto; }
+
+._b-row-wrap {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-wrap: wrap; }
+
+._b-custom-checkbox {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none; }
+
+._b-text-strike {
+  text-decoration: line-through; }
 
 /*# sourceMappingURL=main.css.map */

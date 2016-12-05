@@ -1,0 +1,31 @@
+:host {
+  width: 100%; }
+
+.display-todo-main {
+  margin: 0 25% 3% 25%;
+  flex-direction: row-reverse; }
+  .display-todo-main .todo-display-info {
+    display: flex;
+    flex: 14; }
+    .display-todo-main .todo-display-info p {
+      font-size: 35px;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-weight: 100;
+      color: #36438a; }
+  .display-todo-main .todo-display-complete {
+    display: flex;
+    flex: 1;
+    margin: auto; }
+    .display-todo-main .todo-display-complete input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      transition: all 0.6s linear;
+      border-radius: 50%;
+      background: rgba(54, 67, 138, 0.83); }
+    .display-todo-main .todo-display-complete input[type="checkbox"]:checked {
+      background: rgba(46, 204, 113, 0.81); }
+    .display-todo-main .todo-display-complete input[type="checkbox"]:focus {
+      outline: 0 none;
+      box-shadow: none; }
+
+/*# sourceMappingURL=displayTodo.component.css.map */
