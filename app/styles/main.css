@@ -37,4 +37,8 @@ body {
 ._b-text-strike {
   text-decoration: line-through; }
 
+._b-animate-light-text {
+  opacity: 0.7;
+  transition: .5s linear; }
+
 /*# sourceMappingURL=main.css.map */

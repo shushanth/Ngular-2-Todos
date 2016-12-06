@@ -3,6 +3,7 @@
 
 :host{
     width: 100%;
+    
      
 }
 
@@ -11,16 +12,19 @@
     flex-direction: row-reverse;
     
     
+    
 
     .todo-display-info{
             display: flex;
             flex: 14;
         p{
-            font-size: 35px;
+            font-size: 25px;
             font-family: "Open Sans Condensed", sans-serif;
             font-weight: 100;
             color:#36438a;
             text-transform: capitalize;
+            
+            
         }
     }
 
@@ -30,9 +34,9 @@
         margin: auto;
 
         input[type="checkbox"]{
-                width: 20px;
-                height: 20px;
-                transition: all 0.6s linear;
+                width: 18px;
+                height: 18px;
+                transition: all 0.5s linear;
                 border-radius: 50%;
                 background: rgba(54, 67, 138, 0.83);
         }

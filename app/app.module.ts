@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 //customs
 import { AppComponent }   from './components/app.component';
 import { HeaderComponent } from './components/headers/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { ToduComponent } from './components/toduApp/todu.component';
 
 import { InsertTodoComponent } from './components/toduApp/insertTodo/inserttodo.component';
@@ -19,6 +20,7 @@ import { DisplayTodoComponent } from './components/toduApp/displayTodo/displayto
     declarations:[
         AppComponent,
         HeaderComponent,
+        FooterComponent,
         ToduComponent,
         InsertTodoComponent,
         DisplayTodoComponent

@@ -14,6 +14,7 @@ var forms_1 = require('@angular/forms');
 //customs
 var app_component_1 = require('./components/app.component');
 var header_component_1 = require('./components/headers/header.component');
+var footer_component_1 = require('./components/footer/footer.component');
 var todu_component_1 = require('./components/toduApp/todu.component');
 var inserttodo_component_1 = require('./components/toduApp/insertTodo/inserttodo.component');
 var displaytodo_component_1 = require('./components/toduApp/displayTodo/displaytodo.component');
@@ -29,6 +30,7 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 header_component_1.HeaderComponent,
+                footer_component_1.FooterComponent,
                 todu_component_1.ToduComponent,
                 inserttodo_component_1.InsertTodoComponent,
                 displaytodo_component_1.DisplayTodoComponent

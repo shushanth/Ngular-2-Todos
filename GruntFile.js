@@ -8,6 +8,7 @@ module.exports = function(grunt){
 					'app/styles/main.css':'app/styles/main.scss',
                     'app/styles/base.css':'app/styles/base.scss',
                     'app/components/headers/header.component.css':'app/styles/header.component.scss',
+                    'app/components/footer/footer.component.css':'app/styles/footer.component.scss',
                     'app/components/toduApp/todu.component.css':'app/styles/todu.component.scss',
                     'app/components/toduApp/insertTodo/inserttodo.component.css':'app/styles/inserttodo.component.scss',
                     'app/components/toduApp/displayTodo/displayTodo.component.css':'app/styles/displaytodo.component.scss',
