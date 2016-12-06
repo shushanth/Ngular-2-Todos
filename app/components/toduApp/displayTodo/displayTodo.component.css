@@ -11,7 +11,8 @@
       font-size: 35px;
       font-family: "Open Sans Condensed", sans-serif;
       font-weight: 100;
-      color: #36438a; }
+      color: #36438a;
+      text-transform: capitalize; }
   .display-todo-main .todo-display-complete {
     display: flex;
     flex: 1;
