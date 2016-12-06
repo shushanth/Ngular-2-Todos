@@ -3,6 +3,12 @@
   bottom: 0;
   background: rgba(54, 67, 138, 0.78);
   height: 2em;
-  width: 100%; }
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
+  .footer-main span {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Open Sans Condensed", sans-serif; }
 
 /*# sourceMappingURL=footer.component.css.map */
