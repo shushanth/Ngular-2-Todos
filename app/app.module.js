@@ -18,6 +18,7 @@ var footer_component_1 = require('./components/footer/footer.component');
 var todu_component_1 = require('./components/toduApp/todu.component');
 var inserttodo_component_1 = require('./components/toduApp/insertTodo/inserttodo.component');
 var displaytodo_component_1 = require('./components/toduApp/displayTodo/displaytodo.component');
+var filterstodo_component_1 = require('./components/toduApp/filtersTodo/filterstodo.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -33,7 +34,8 @@ var AppModule = (function () {
                 footer_component_1.FooterComponent,
                 todu_component_1.ToduComponent,
                 inserttodo_component_1.InsertTodoComponent,
-                displaytodo_component_1.DisplayTodoComponent
+                displaytodo_component_1.DisplayTodoComponent,
+                filterstodo_component_1.FiltersTodoComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

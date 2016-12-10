@@ -10,6 +10,8 @@ import { ToduComponent } from './components/toduApp/todu.component';
 
 import { InsertTodoComponent } from './components/toduApp/insertTodo/inserttodo.component';
 import { DisplayTodoComponent } from './components/toduApp/displayTodo/displaytodo.component';
+import { FiltersTodoComponent } from './components/toduApp/filtersTodo/filterstodo.component';
+
 
 @NgModule({
     imports: [
@@ -23,7 +25,8 @@ import { DisplayTodoComponent } from './components/toduApp/displayTodo/displayto
         FooterComponent,
         ToduComponent,
         InsertTodoComponent,
-        DisplayTodoComponent
+        DisplayTodoComponent,
+        FiltersTodoComponent
     ],
 
     bootstrap:[AppComponent]

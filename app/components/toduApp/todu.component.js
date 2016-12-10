@@ -20,8 +20,11 @@ var ToduComponent = (function () {
             name: newValue['name'],
             completed: newValue['completed']
         };
-        this.todoItems.push(newConfigObjValue);
+        this.todoItems.unshift(newConfigObjValue);
         this.todoValue['name'] = "";
+    };
+    ToduComponent.prototype.isTodoItemsEmpyt = function () {
+        return !!(this.todoItems.length);
     };
     //update the todo completed or not 
     ToduComponent.prototype.updateTodoItemCompleted = function (todoCompletedConfig) {

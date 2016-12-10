@@ -12,6 +12,7 @@ module.exports = function(grunt){
                     'app/components/toduApp/todu.component.css':'app/styles/todu.component.scss',
                     'app/components/toduApp/insertTodo/inserttodo.component.css':'app/styles/inserttodo.component.scss',
                     'app/components/toduApp/displayTodo/displayTodo.component.css':'app/styles/displaytodo.component.scss',
+                    'app/components/toduApp/filtersTodo/filterstodo.component.css':'app/styles/filterstodo.component.scss',
 
 
 				}

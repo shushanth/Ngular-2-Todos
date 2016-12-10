@@ -19,6 +19,10 @@ export class InsertTodoComponent implements OnInit {
     
     //add todo item to the list and event emit to the main container
      addTodoItem(event:Event):void{
+         debugger;
+         if(!this.todoValue['name'])
+             return;
+
         this.insertTodo.emit(this.todoValue);
      }
 

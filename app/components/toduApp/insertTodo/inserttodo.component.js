@@ -16,6 +16,9 @@ var InsertTodoComponent = (function () {
     }
     //add todo item to the list and event emit to the main container
     InsertTodoComponent.prototype.addTodoItem = function (event) {
+        debugger;
+        if (!this.todoValue['name'])
+            return;
         this.insertTodo.emit(this.todoValue);
     };
     InsertTodoComponent.prototype.ngOnInit = function () { };

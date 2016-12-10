@@ -29,10 +29,14 @@ export class ToduComponent implements OnInit {
             name:newValue['name'],
             completed:newValue['completed']
         }; 
-        this.todoItems.push(newConfigObjValue);
+        this.todoItems.unshift(newConfigObjValue);
         this.todoValue['name'] = "";
 
     }
+
+     isTodoItemsEmpyt():boolean{
+        return !!(this.todoItems.length);
+     }
 
     //update the todo completed or not 
     updateTodoItemCompleted(todoCompletedConfig:Object):void{

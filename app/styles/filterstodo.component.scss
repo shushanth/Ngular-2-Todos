@@ -1,0 +1,46 @@
+@import "variables";
+@import "mixins";
+
+:host{
+    width: 100%;
+}
+.filters-todu-main{
+        margin: 0 25% 2% 25%;
+        align-items: center;
+        background: #fefefe;
+        
+      
+       .todu-clear-completed{
+                flex: 1;
+                padding: 1rem;
+
+                input[type="checkbox"]{
+                    width: 30px;
+                    height: 30px;
+                    transition: all 0.5s linear;
+                    border-radius: 50%;
+                    background:rgba(46, 204, 113, 0.7);
+                    
+                    
+                }
+            }
+
+            .todu-completed-info{
+                flex: 1;
+                margin-right: 1rem;
+                flex-direction: row-reverse;
+                display: flex;
+                align-items: center;
+
+                 input[type="checkbox"]{
+                    width: 30px;
+                    height: 30px;
+                    transition: all 0.5s linear;
+                    border-radius: 50%;
+                    background:rgba(54, 67, 138, 0.7);
+                    cursor:default;
+                    
+                }
+            }
+        
+}

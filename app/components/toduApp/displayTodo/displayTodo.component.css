@@ -2,17 +2,18 @@
   width: 100%; }
 
 .display-todo-main {
-  margin: 0 25% 3% 25%;
-  flex-direction: row-reverse; }
+  margin: 1% 25% 0 25%;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid rgba(152, 166, 206, 0.45);
+  padding-bottom: 1rem; }
   .display-todo-main .todo-display-info {
     display: flex;
     flex: 14; }
     .display-todo-main .todo-display-info p {
-      font-size: 25px;
+      font-size: 22px;
       font-family: "Open Sans Condensed", sans-serif;
       font-weight: 100;
-      color: #36438a;
-      text-transform: capitalize; }
+      color: #36438a; }
   .display-todo-main .todo-display-complete {
     display: flex;
     flex: 1;
